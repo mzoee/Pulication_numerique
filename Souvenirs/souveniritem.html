@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Un voyage en Iran</title>
+</head>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Un voyage en Iran</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link">Page Principale</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="about.html" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Villes</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../Villes/isfahan.html">Ispahan</a>
+              <a class="dropdown-item" href="../Villes/tabriz.html">Tabriz</a>
+              <a class="dropdown-item" href="../Villes/tehran.html">Téhéran</a>
+              <a class="dropdown-item" href="../Villes/shiraz.html">Shiraz</a>
+              <a class="dropdown-item" href="../Villes/mashhad.html">Mashahd</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a href="Souvenirs/souveniritem.html" class="nav-link">Souvenirs</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- PAGE HEADER -->
+  <header id="page-header" class="header-souvenir">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto text-center">
+          <h1>Iran Souvenir</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, temporibus?</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- SOUVENIR SECTION -->
+  <section id="souvenir" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-header bg-dark text-white">
+              <h3>Isfahan Souvenir</h3>
+            </div>
+            <img class="card-img-top" src="../img/Isfahan-Souvenir.jpeg" alt="isfahan-souvenir">
+            <div class="card-body">
+              <h4 class="card-title">Inlay</h4>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, quis.</p>
+              <a href="#" class="btn btn-danger btn-block mt-2" data-type="moreinfo" data-city ="isfahan" data-toggle="modal" data-target="#souvenirModal">More Info</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-header bg-dark text-white">
+              <h3>Mashhad Souvenir</h3>
+            </div>
+            <img class="card-img-top" src="../img/Mashhad-Souvenir.jpeg" alt="mashhad-souvenir">
+            <div class="card-body">
+              <h4 class="card-title">Saffron</h4>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, quis.</p>
+              <a href="#" class="btn btn-danger btn-block mt-2" data-type="moreinfo" data-city ="mashhad" data-toggle="modal" data-target="#souvenirModal">More Info</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-header bg-dark text-white">
+              <h3>Shiraz Souvenir</h3>
+            </div>
+            <img class="card-img-top" src="../img/Shiraz-Souvenir.jpeg" alt="shiraz-souvenir">
+            <div class="card-body">
+              <h4 class="card-title">Maskati</h4>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, quis.</p>
+              <a href="#" class="btn btn-danger btn-block mt-2" data-type="moreinfo" data-city ="shiraz" data-toggle="modal" data-target="#souvenirModal">More Info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-header bg-dark text-white">
+              <h3>Tabriz Souvenir</h3>
+            </div>
+            <img class="card-img-top" src="../img/Tabriz-Souvenir.jpeg" alt="tabriz-souvenir">
+            <div class="card-body">
+              <h4 class="card-title">Baklava</h4>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, quis.</p>
+              <a href="#" class="btn btn-danger btn-block mt-2" data-type="moreinfo" data-city ="tabriz" data-toggle="modal" data-target="#souvenirModal">More Info</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-header bg-dark text-white">
+              <h3>Tehran Souvenir</h3>
+            </div>
+            <img class="card-img-top" src="../img/Tehran-Souvenir.jpeg" alt="tehran-souvenir">
+            <div class="card-body">
+              <h4 class="card-title">Abaali Doogh</h4>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, quis.</p>
+              <a href="#" class="btn btn-danger btn-block mt-2" data-type="moreinfo" data-city ="tehran" data-toggle="modal" data-target="#souvenirModal">More Info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="p-5 bg-dark text-white">
+    <div class="container">
+      <h1 class="text-center">Frequently Asked Questions</h1>
+      <hr>
+      <div class="row">
+        <div class="col-md-6">
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header">
+                <h5 class="mb-0">
+                  <a href="#collapseOne" data-toggle="collapse" data-parent="accordion">
+                    Question One
+                  </a>
+                </h5>
+              </div>
+
+              <div id="collapseOne" class="collapse">
+                <div class="card-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea officiis distinctio exercitationem dolor minus placeat
+                  amet commodi, ab a perspiciatis officia nobis reiciendis numquam totam repudiandae molestias nulla, quod
+                  voluptatibus modi rerum laboriosam tenetur. Nihil, soluta eaque? Minima, deserunt.
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h5 class="mb-0">
+                  <a href="#collapseTwo" data-toggle="collapse" data-parent="accordion">
+                    Question Two
+                  </a>
+                </h5>
+              </div>
+
+              <div id="collapseTwo" class="collapse">
+                <div class="card-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea officiis distinctio exercitationem dolor minus placeat
+                  amet commodi, ab a perspiciatis officia nobis reiciendis numquam totam repudiandae molestias nulla, quod
+                  voluptatibus modi rerum laboriosam tenetur. Nihil, soluta eaque? Minima, deserunt.
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h5 class="mb-0">
+                  <a href="#collapseThree" data-toggle="collapse" data-parent="accordion">
+                    Question Three
+                  </a>
+                </h5>
+              </div>
+
+              <div id="collapseThree" class="collapse">
+                <div class="card-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea officiis distinctio exercitationem dolor minus placeat
+                  amet commodi, ab a perspiciatis officia nobis reiciendis numquam totam repudiandae molestias nulla, quod
+                  voluptatibus modi rerum laboriosam tenetur. Nihil, soluta eaque? Minima, deserunt.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header">
+                <h5 class="mb-0">
+                  <a href="#collapseFour" data-toggle="collapse" data-parent="accordion">
+                    Question Four
+                  </a>
+                </h5>
+              </div>
+
+              <div id="collapseFour" class="collapse">
+                <div class="card-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea officiis distinctio exercitationem dolor minus placeat
+                  amet commodi, ab a perspiciatis officia nobis reiciendis numquam totam repudiandae molestias nulla, quod
+                  voluptatibus modi rerum laboriosam tenetur. Nihil, soluta eaque? Minima, deserunt.
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h5 class="mb-0">
+                  <a href="#collapseFive" data-toggle="collapse" data-parent="accordion">
+                    Question Five
+                  </a>
+                </h5>
+              </div>
+
+              <div id="collapseFive" class="collapse">
+                <div class="card-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea officiis distinctio exercitationem dolor minus placeat
+                  amet commodi, ab a perspiciatis officia nobis reiciendis numquam totam repudiandae molestias nulla, quod
+                  voluptatibus modi rerum laboriosam tenetur. Nihil, soluta eaque? Minima, deserunt.
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h5 class="mb-0">
+                  <a href="#collapseSix" data-toggle="collapse" data-parent="accordion">
+                    Question Six
+                  </a>
+                </h5>
+              </div>
+
+              <div id="collapseSix" class="collapse">
+                <div class="card-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea officiis distinctio exercitationem dolor minus placeat
+                  amet commodi, ab a perspiciatis officia nobis reiciendis numquam totam repudiandae molestias nulla, quod
+                  voluptatibus modi rerum laboriosam tenetur. Nihil, soluta eaque? Minima, deserunt.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy;
+            <span id="year"></span> Un voyage en Iran</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- Modal -->
+<div class="modal fade" id="souvenirModal" tabindex="-1" role="dialog" aria-labelledby="souvenirModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="souvenirModalLabel"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  <script src="../js/main.js"></script>
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+  </script>
+</body>
+</html>
