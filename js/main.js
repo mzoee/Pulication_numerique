@@ -7,25 +7,25 @@ if (souvenir) {
       const modalTitle = document.getElementById("souvenirModalLabel");
       let modalBody = "";
       switch (city) {
-        case "isfahan":
+        case "ispahan":
           modalBody =
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti animi esse totam! Provident, quae vitae neque ipsum ullam repellat corrupti modi labore molestiae voluptas recusandae. Quibusdam nihil, fugiat modi ut voluptates officia ea ullam ex eius nobis voluptatibus maiores. Cumque enim, id corrupti eaque pariatur voluptatibus consequatur aliquam molestiae. Tenetur!";
+            "Cette technique consiste à réaliser des motifs, le plus souvent des formes en étoile, en incrustant de fines baguettes de bois (ébène, Teck, jujubier, oranger, rosier), laiton (pour les parties dorées), et os de chameau (parties blanches). L'ivoire, l'or et l'argent peuvent également être utilisés pour les pièces de collection.";
           break;
         case "mashhad":
           modalBody =
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, eos! Consequatur aliquam accusamus odio assumenda? Ullam id, inventore enim iste itaque quam quos ipsa, error similique eius veritatis corrupti ad unde, explicabo eos? Laborum neque eligendi minus delectus quas id?";
+            "L'Iran est de loin le premier producteur mondial de Safran, également connu sous le nom d'épice dorée, avec plus de 185 tonnes produites en 2002, ce qui représente plus de 90% de la récolte mondiale.";
           break;
         case "shiraz":
           modalBody =
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, suscipit. Error, ad. Nam, consequuntur. Unde, maxime at! Ducimus, quia sapiente cumque perspiciatis hic blanditiis libero natus ad odio asperiores at beatae, repudiandae esse quidem reiciendis, laborum facere doloremque impedit minus. Voluptate error necessitatibus vitae debitis.";
+            "L'amidon, le sucre, l'eau de rose, la cardamome, l'huile et le safran sont les ingrédients utilisés dans la préparation de ce bonbon.";
           break;
         case "tabriz":
           modalBody =
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti animi esse totam! Provident, quae vitae neque ipsum ullam repellat corrupti modi labore molestiae voluptas recusandae. Quibusdam nihil, fugiat modi ut voluptates officia ea ullam ex eius nobis voluptatibus maiores. Cumque enim, id corrupti eaque pariatur voluptatibus consequatur aliquam molestiae. Tenetur!";
+            "Le baklava de Tabriz est connu sous le nom de baklava d'Istanbul. Ce baklava a un goût très agréable et est entré dans d'autres villes d'Iran depuis Tabriz. Les principaux ingrédients du baklava sont la farine, le sucre, les œufs et la cardamome. Le baklava a différents types et formes et en termes de goût, il a des saveurs de pistache, de noix de coco et d'amande. Des noyaux de noix, des amandes ou des pistaches peuvent également y être utilisés. ";
           break;
         case "tehran":
           modalBody =
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, eos! Consequatur aliquam accusamus odio assumenda? Ullam id, inventore enim iste itaque quam quos ipsa, error similique eius veritatis corrupti ad unde, explicabo eos? Laborum neque eligendi minus delectus quas id?";
+            "Le doogh, cette boisson iranienne populaire, a une définition simple : ((diluer le yaourt avec de l'eau ou des résidus de babeurre de yaourt dilué))";
           break;
         default:
           modalBody = "";
