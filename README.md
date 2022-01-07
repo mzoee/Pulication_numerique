@@ -21,6 +21,7 @@ It has some features as below:
   * The cards are used for developing the souvenir page: each souvenir has its own photo, information and "plus d'info" botton.
   * The modal is used to add text to the "plus d'info" box.
   * The jQuery is used for sticky menu and slide view.
+  * Boostrap also gives us the ability to easily create responsive designs. 
  
 
 * The JS is used for showing the dynamic modals.
