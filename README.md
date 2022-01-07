@@ -1,10 +1,10 @@
-# Pulication_numerique
+# Publication_numerique
 
 
 
 # A website for visiting Iran
 
-This is a Repository for a website named "Un voyage en Iran": a project for course "Pulication_numerique" at UNIL.
+This is a Repository for a website named "Un voyage en Iran": a project for course "Publication_numerique" at UNIL.
 
 By: Maryam Sadat Zoee
 
